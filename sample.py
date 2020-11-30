@@ -17,3 +17,5 @@ clf = tree.DecisionTreeClassifier()
 clf = clf.fit(X,Y)
 
 print(clf.predict([[-20,60],[-30,50],[50,60]]))
+
+# output: ['2' '2' '1']
